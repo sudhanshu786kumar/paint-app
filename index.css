@@ -1,0 +1,51 @@
+/* style.css */
+
+canvas {
+	border: 2px solid black;
+	cursor: crosshair;
+
+}
+
+.paint-tools {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	max-width: 500px;
+	align-items: center;
+}
+
+#brush-size {
+	padding: 10px;
+	background-color: #333;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+#pen {
+	padding: 10px;
+	background-color: #0800ff;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+#eraser {
+	padding: 10px;
+	background-color: #ee00cf;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+#color-picker {
+	cursor: pointer;
+}
+
+#clear-canvas {
+	padding: 10px;
+	background-color: #ff3333;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
